@@ -19,11 +19,6 @@
     "path": "/charGenTextLabels/5",
     "value": "Hair Color"
   },
-//  {
-//    "op" : "add",
-//    "path" : "/defaultBlueprints/tier1/-",
-//    "value": {"item" : "satcutefluff"}
-//  },
 
 //Removes all hair for both male and female chars
   {
