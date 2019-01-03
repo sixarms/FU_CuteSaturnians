@@ -1,0 +1,78 @@
+{
+  "itemName" : "SatGatlingPlasma",
+  "price" : 1440,
+  "inventoryIcon" : "SatGatlingPlasma.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A super lightweight, plasma firing minigun.",
+  "shortdescription" : "Nocturne Minigun",
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "itemTags" : ["weapon","ranged","assaultrifle", "plasma", "upgradeableWeapon"],
+  "twoHanded" : true,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "SatGatlingPlasma.png",
+    "barrel" : "",
+    "muzzleFlash" : "SatGatlingPlasmamuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_shotgun4.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      }
+    }
+  },
+  "baseOffset" : [0.6, -0.8],
+  "muzzleOffset" : [2.25, -0.50],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "fire",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.1,
+    "baseDps" : 80,
+    "energyUsage" : 24,
+    "inaccuracy" : 0.1,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "projectileType" : "greenplasmabullet",
+    "projectileParameters" : {
+      "speed" : 80,
+      "knockback" : 10
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+  "altAbilityType" : "grenadelauncher",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

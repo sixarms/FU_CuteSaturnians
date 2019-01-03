@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 5 },
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "saturnwarpgem",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

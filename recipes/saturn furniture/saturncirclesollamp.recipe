@@ -1,0 +1,8 @@
+  {
+  "input" : [
+    { "item" : "torch", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "saturncirclesollamp", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all" ]
+}

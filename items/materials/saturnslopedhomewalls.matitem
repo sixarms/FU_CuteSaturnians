@@ -1,0 +1,11 @@
+{
+  "itemName" : "saturnslopedhomewalls",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedhomewalls.png",
+  "shortdescription" : "Sloped Stone",
+  "description" : "This stone can form together into sloped angles.",
+  "learnBlueprintsOnPickup" : [ "saturnslopedhomewalls" ],
+  "materialId" : 54704
+}

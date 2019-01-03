@@ -1,0 +1,23 @@
+{
+  "objectName" : "saturnbottle12",
+  "colonyTags" : ["saturn", "satAlchemy" ],
+  "rarity" : "Uncommon",
+  "price" : 30,
+  "description" : "A bottle of dark ink.",
+  "shortdescription" : "Ink Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+  "avianDescription" : "I like the smell of this.",
+  "saturnDescription" : "I wonder what the effect of this is?",
+  "inventoryIcon" : "saturnbottleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle12.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

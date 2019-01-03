@@ -1,0 +1,10 @@
+[ 
+
+{ "op": "add", 
+		"path": "/scriptConfig/chatSounds/satkyterran", 
+		"value": {
+		"male": [ "/sfx/humanoid/saturnkyta_sfx1.ogg", "/sfx/humanoid/saturnkyta_sfx2.ogg", "/sfx/humanoid/saturnkyta_sfx3.ogg" ],
+		"female": [ "/sfx/humanoid/saturnkyta_sfx1.ogg", "/sfx/humanoid/saturnkyta_sfx2.ogg", "/sfx/humanoid/saturnkyta_sfx3.ogg" ]
+} }
+
+]

@@ -1,0 +1,21 @@
+{
+  "objectName" : "saturncrystalball",
+  "colonyTags" : ["saturn","knowledge"],
+  "rarity" : "Common",
+  "description" : "A crystal ball.",
+  "shortdescription" : "Saturnian Crystal Ball",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 60,
+  "inventoryIcon" : "saturncrystalballicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturncrystalball.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

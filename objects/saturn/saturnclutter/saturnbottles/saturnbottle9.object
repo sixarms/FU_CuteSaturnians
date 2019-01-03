@@ -1,0 +1,23 @@
+{
+  "objectName" : "saturnbottle9",
+  "colonyTags" : ["saturn", "satAlchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A strange potion that makes the drinker jump higher.",
+  "shortdescription" : "Blue Potion",
+  "category" : "decorative",
+  "race" : "generic",
+  "avianDescription" : "I like the smell of this.",
+  "saturnDescription" : "I wonder what the effect of this is?",
+  "inventoryIcon" : "saturnbottleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle9.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

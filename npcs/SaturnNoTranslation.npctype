@@ -1,0 +1,43 @@
+{
+  "type" : "SaturnNoTranslation",
+  "baseType" : "villager",
+  
+  
+  
+
+
+  "dropPools" : [ "wizardtreasure" ],
+
+
+
+	
+
+    "dialog" : {
+      "converse" : {
+        "default" : [
+		"Duszuf naeshnolth sol? Oh? Tuh-ran-zuh-late no.",
+		"Thaumoth an imaog ox, tho zif",
+		"...Hi?",
+		"...?",
+		"Squeak?"
+		]
+		}
+		},
+		
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "saturntier5mchest" ],
+            "legs" : [ "saturntier5mpants" ],
+            "head" : [ "saturntier5mhead" ],
+            "back" : [ "saturnWingIOF" ],
+            "sheathedprimary" : [
+              "satstaffT1"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnpainting4",
+  "colonyTags" : ["saturn", "kyterran", "pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A painting of a Kyterran standing in a land covered in ash.",
+  "shortdescription" : "Ash Kyterran Painting",
+  "race" : "saturn",
+  "saturnDescription" : "This is a painting of a northerner, a Kyterran. This species is extremely rare around here.",
+  "inventoryIcon" : "saturnpainting4icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnpainting4.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

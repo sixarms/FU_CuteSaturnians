@@ -1,0 +1,48 @@
+{
+  "metadata" : {
+    "name" : "saturnruins",
+    "species" : "saturn",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnruinstower" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 30,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturnruinstower",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturnruinstower" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnruinstower.json" ]
+    },
+
+
+//End caps	
+
+    {
+      "name" : "saturnruinsLeftEnd",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "saturnruinsLeftEnd.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "saturnruinsRightEnd",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "saturnruinsRightEnd.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

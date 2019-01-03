@@ -1,0 +1,23 @@
+{
+  "objectName" : "saturnbottle4",
+  "colonyTags" : ["saturn", "satAlchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "Sweet nectar in a bottle.",
+  "shortdescription" : "Nectar Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+  "avianDescription" : "I like the smell of this.",
+  "saturnDescription" : "Nectar.",
+  "inventoryIcon" : "saturnbottle4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

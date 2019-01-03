@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnopenbook4",
+  "colonyTags" : ["saturn", "satBooks" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book held up by a stand.",
+  "shortdescription" : "Luna Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "Some Saturnians plan everything out according to our moon's phase. It is said to have special power of over magic.",
+  "inventoryIcon" : "saturnopenbookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	"id" : "saturnfactions",
+	"title" : "Saturnian Civilizations",
+	"species" : "other",
+	"description" : "A guide to major Saturnian civilizations.",
+	"icon" : "saturnbook4.png",
+	"contentPages" : [
+
+		"The largest and most widespread Saturnian civilization is Solalei. Solalei is an ancient alliance between the Sun Kingdom and the Io Mages that later expanded to include around 40 other countries. Many Saturnians travel to Solalei City to learn magic from the wizard college there, even as larvae. The Solalei Exploration Guild travels across space in search of new resources, technology, an potential allies.",
+	
+		"The next largest civilization is Actias. Actias is built on the top of giant trees and mushrooms. Actians channel moonlight to summon spirits and animate armor, among other things. This reliance on the moon means that most Actians stay on the homeworld.",
+	
+		"There are many other groups that remain mostly independent of these two. The most famous are Rubicunda, who are known for covering their islands in colorful flowers; and the wasp moths, whose entire culture is based on mimicking a wasp species they encountered on their travels."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 50
+  }
+}

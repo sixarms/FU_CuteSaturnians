@@ -1,0 +1,143 @@
+{
+  "objectName" : "saturnMagicCrystalTable",
+  "colonyTags" : ["crafting", "magic", "saturn"],
+  "rarity" : "Legendary",
+  "price" : 1250,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+  
+
+  "breakDropOptions" : [],
+  "printable" : false,
+  "animation" : "saturnMagicCrystalTable.animation",
+  "animationPosition" : [0, 16],
+  "description" : "This is used to create wands and staves.",
+  "shortdescription" : "^orange;Enchanting Table^white;",
+  "race" : "saturn",
+  "category" : "crafting",
+  "inventoryIcon" : "saturnMagicCrystalTableicon.png",
+"particleEmitter" : {
+    "emissionRate" : 1,
+    "emissionVariance" : 0.5,
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.5, 0],
+      "size" : 1.0,
+      "color" : [255, 153, 92, 200],
+      "light" : [165, 127, 61],
+      "fade" : 0.3,
+      "destructionAction" : "shrink",
+      "destructionTime" : 1,
+      "initialVelocity" : [0.0, 0.0],
+      "finalVelocity" : [0.0, 0.0],
+      "approach" : [0, 1],
+      "timeToLive" : 1.5,
+      "layer" : "middle"
+    },
+    "particleVariance" : {
+      "initialVelocity" : [1, 1],
+      "finalVelocity" : [0, 0],
+      "position" : [1.5, 1.5],
+      "size" : 0.5
+    }
+	},
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+  
+  
+"upgradeStages" : [
+    {
+      "animationState" : "saturnMagicCrystalTable",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "saturnMagicCrystalTableicon.png",
+        "placementImage" : "saturnMagicCrystalTable.png",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "lv1.",
+        "shortdescription" : "^orange;Staff Enchanting Table^white;",
+
+        "apexDescription" : "A spinning wheel. A tool for tailors.",
+        "avianDescription" : "A tool for working threads.",
+        "floranDescription" : "Floran ssspin wheel, work thread.",
+        "glitchDescription" : "Observant. A tailoring tool.",
+        "humanDescription" : "A wooden spinning wheel. So old-fashioned it's almost quaint.",
+        "hylotlDescription" : "The Hylotl consider spinning yarn an art-form.",
+        "novakidDescription" : "Maybe I can make myself a new shirt on this.",
+		"saturnDescription" : "I can use this to craft magical items."
+      },
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturnMagicCrystalTable.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Staff Enchanting Table",
+        "subtitle" : "Craft magical items.",
+        "icon" : {
+          "file" : "/interface/crafting/wiringstation.png"
+				 }
+		}
+        },
+     "filter" : [ "saturnstaff", "saturnstagewand", "saturnpracticalmagic" ],
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 6 },
+          { "item" : "string", "count" : 25 },
+          { "item" : "silverbar", "count" : 1 }
+        ]
+      },
+      "learnBlueprintsOnPickup" : [],
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+    {
+      "animationState" : "saturnMagicCrystalTable2",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "saturnMagicCrystalTable2icon.png",
+        "placementImage" : "saturnMagicCrystalTable2.png",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "lv2.",
+        "shortdescription" : "^orange;Energized Enchanting Table^white;",
+
+        "apexDescription" : "A spinning wheel. A tool for tailors.",
+        "avianDescription" : "A tool for working threads.",
+        "floranDescription" : "Floran ssspin wheel, work thread.",
+        "glitchDescription" : "Observant. A tailoring tool.",
+        "humanDescription" : "A wooden spinning wheel. So old-fashioned it's almost quaint.",
+        "hylotlDescription" : "The Hylotl consider spinning yarn an art-form.",
+        "novakidDescription" : "Maybe I can make myself a new shirt on this.",
+		"saturnDescription" : "I can use this to craft magical items."
+      },
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturnMagicCrystalTable.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Energized Enchanting Table",
+        "subtitle" : "Craft magical items.",
+        "icon" : {
+          "file" : "/interface/crafting/wiringstation.png"
+				 }
+		}
+        },
+     "filter" : [ "saturnstaff", "saturnstagewand", "saturnpracticalmagic", "saturnstaff2", "saturnstagewand2", "saturnpracticalmagic2" ]
+      },
+      "learnBlueprintsOnPickup" : [],
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    }
+	],
+	
+  "orientations" : [
+    {
+      "dualImage" : "saturnMagicCrystalTable.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

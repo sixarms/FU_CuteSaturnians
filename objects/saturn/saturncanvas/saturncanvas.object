@@ -1,0 +1,29 @@
+{
+  "objectName" : "saturncanvas",
+  "colonyTags" : ["saturn"],
+  "rarity" : "Common",
+  "description" : "A blank canvas. What will you paint? ",
+  "shortdescription" : "Saturnian Canvas",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 110,
+  "apexDescription" : "A blank canvas.",
+  "avianDescription" : "An empty canvas.",
+  "floranDescription" : "Nothing.",
+  "glitchDescription" : "Bored. A blank canvas.",
+  "humanDescription" : "A blank canvas. Where's the paint?",
+  "hylotlDescription" : "A blank canvas.",
+  "novakidDescription" : "Just a blank canvas.",
+  "saturnDescription" : "A blank canvas.",
+  "inventoryIcon" : "saturncanvasicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturncanvas.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

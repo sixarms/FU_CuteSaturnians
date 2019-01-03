@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnopenbook3",
+  "colonyTags" : ["saturn", "satBooks" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book held up by a stand.",
+  "shortdescription" : "Open Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "It is full of sale records.",
+  "inventoryIcon" : "saturnopenbookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

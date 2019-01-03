@@ -1,0 +1,31 @@
+{
+  "objectName" : "saturnenchantertable",
+  "colonyTags" : ["saturn"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 110,
+  "description" : "An ebony table used for staff creation.",
+  "shortdescription" : "Saturnian Staff Table",
+  "race" : "saturn",
+  "apexDescription" : "This wand is made from obsidian. It would be too fragile to use as a weapon.",
+  "avianDescription" : "A table with an unfinished staff.",
+  "floranDescription" : "Cryssstalsss.",
+  "glitchDescription" : "Perplexed. This wand is made from obsidian. It would be too fragile to use as a weapon.",
+  "humanDescription" : "A table covered in crystals.",
+  "hylotlDescription" : "A table covered in crystals.",
+  "novakidDescription" : "A table with an unfinished staff on it.",
+  "saturnDescription" : "Crystals are melted and then cast here to be used for wands.",
+  
+  "inventoryIcon" : "saturnenchantertableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnenchantertable.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

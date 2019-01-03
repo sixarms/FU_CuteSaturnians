@@ -1,0 +1,23 @@
+{
+  "itemName" : "saturnscifiarmorguide",
+  "price" : 2000,
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "saturnbook.png",
+  "description" : "Nocturne is a group of Saturnians that have quickly adapted to modern tech. This is a crafting guide for their space suits and power armor.",
+  "shortdescription" : "Nocturne Armor Guide",
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"saturnWingEnergy",
+	
+	"saturnLunaihead",
+	"saturnLunaichest",
+	"saturnLunaipants",
+
+	"saturnScienceWizardBhead",
+	"saturnScienceWizardhead",
+	"saturnScienceWizardchest",
+	"saturnScienceWizardpants"
+	
+	]
+}
