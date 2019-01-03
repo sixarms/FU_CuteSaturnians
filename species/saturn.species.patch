@@ -1,0 +1,750 @@
+[
+  {
+    "op": "replace",
+    "path": "/charGenTextLabels/0",
+    "value": "Skin Color"
+  },
+  {
+    "op": "replace",
+    "path": "/charGenTextLabels/1",
+    "value": "Hairstyle"
+  },
+  {
+    "op": "replace",
+    "path": "/charGenTextLabels/4",
+    "value": "Antenna Type"
+  },
+  {
+    "op": "replace",
+    "path": "/charGenTextLabels/5",
+    "value": "Hair Color"
+  },
+//  {
+//    "op" : "add",
+//    "path" : "/defaultBlueprints/tier1/-",
+//    "value": {"item" : "satcutefluff"}
+//  },
+
+//Removes all hair for both male and female chars
+  {
+    "op": "remove",
+    "path": "/genders/0/hair"
+  },
+
+  {
+    "op": "remove",
+    "path": "/genders/1/hair"
+  },
+
+//Male hair
+
+{
+"op": "add",
+"path": "/genders/0/hair",
+"value": [
+"anti_mhuman01",
+"anti_mhuman02",
+"anti_mhuman02b",
+"anti_mhuman03",
+"anti_mhuman04",
+"anti_mhuman05",
+"anti_mhuman06",
+"anti_mhuman07",
+"anti_mhuman08",
+"anti_mhuman09",
+"anti_mhuman10",
+"anti_mhuman11",
+"anti_mhuman12",
+"anti_mhuman13",
+"anti_mhuman14",
+"anti_mhuman15",
+"anti_mhuman16",
+"anti_mhuman17",
+"anti_mhuman18",
+"anti_mhuman19",
+"anti_mhuman20",
+"anti_mhuman21",
+"anti_mhuman22",
+"anti_mhuman23",
+"anti_mhuman24",
+"anti_mhuman25",
+"anti_mhuman26",
+"anti_mhuman27",
+"anti_mhuman28",
+"anti_mhuman29",
+"anti_mhuman30",
+"male1",
+"male2",
+"male3",
+"male4",
+"male5",
+"male6",
+"male7",
+"male8",
+"male9",
+"male10",
+"male11",
+"male12",
+"male13",
+"male14",
+"male15",
+"male16",
+"male17",
+"male18",
+"male19",
+"male20",
+"male21",
+"male22",
+"male23",
+"male24",
+"male25",
+"male26",
+"male27",
+"male28",
+"male29",
+"male30",
+"male31",
+"male32",
+"male33",
+"male34",
+"male35",
+"male36",
+"male37",
+"male38",
+"male39",
+"male40",
+"male41",
+"male42",
+"male43",
+"male44",
+"male45",
+"male46",
+"male47",
+"male48",
+"male49",
+"male50",
+"male51",
+"male52",
+"male53",
+"male54",
+"male55",
+"male56",
+"male57",
+"male58",
+"male59",
+"male60",
+"male61",
+"male62",
+"male63",
+"male64",
+"PatchHair01",
+"PatchHair02",
+"PatchHair03",
+"PatchHair04",
+"PatchHair05",
+"PatchHuman01",
+"PatchHuman02",
+"PatchHuman03",
+"PatchHuman04",
+"PatchHuman05"
+]
+},
+
+//Female hair
+{
+"op": "add",
+"path": "/genders/1/hair",
+"value": [
+"anti_fhuman01",
+"anti_fhuman02",
+"anti_fhuman02b",
+"anti_fhuman03",
+"anti_fhuman04",
+"anti_fhuman05",
+"anti_fhuman06",
+"anti_fhuman07",
+"anti_fhuman08",
+"anti_fhuman09",
+"anti_fhuman10",
+"anti_fhuman11",
+"anti_fhuman12",
+"anti_fhuman13",
+"anti_fhuman14",
+"anti_fhuman15",
+"anti_fhuman16",
+"anti_fhuman17",
+"anti_fhuman18",
+"anti_fhuman19",
+"anti_fhuman20",
+"anti_fhuman21",
+"fem1",
+"fem2",
+"fem3",
+"fem4",
+"fem5",
+"fem6",
+"fem7",
+"fem8",
+"fem9",
+"fem10",
+"fem11",
+"fem12",
+"fem13",
+"fem14",
+"fem15",
+"fem16",
+"fem17",
+"fem18",
+"fem19",
+"fem20",
+"fem21",
+"fem22",
+"fem23",
+"fem24",
+"fem25",
+"fem26",
+"fem27",
+"fem28",
+"fem29",
+"fem30",
+"fem31",
+"fem32",
+"fem33",
+"fem34",
+"fem35",
+"fem36",
+"fem37",
+"fem38",
+"fem39",
+"fem40",
+"fem41",
+"fem42",
+"fem43",
+"fem44",
+"fem45",
+"fem46",
+"fem47",
+"fem48",
+"fem49",
+"fem50",
+"fem51",
+"fem52",
+"fem53",
+"fem54",
+"fem55",
+"fem56",
+"fem57",
+"fem58",
+"fem59",
+"fem60",
+"fem61",
+"fem62",
+"fem63",
+"fem64",
+"PatchHair01",
+"PatchHair02",
+"PatchHair03",
+"PatchHair04",
+"PatchHair05",
+"PatchHuman01",
+"PatchHuman02",
+"PatchHuman03",
+"PatchHuman04",
+"PatchHuman05"
+]
+},
+
+//Removes all facial masks
+  {
+    "op": "remove",
+    "path": "/genders/0/facialMask"
+  },
+  {
+    "op": "remove",
+    "path": "/genders/1/facialMask"
+  },
+//adds only the changed masks back
+{
+    "op": "add",
+    "path": "/genders/0/facialMask",
+	"value": [
+"satbcuteBlack", "satbcuteBlue", "satbcuteCyan", "satbcuteGold", "satbcuteGreen", "satbcuteLime", "satbcuteMagenta", "satbcuteOrange", "satbcutePurple", "satbcuteRed", "satbcuteTeal", "satbcuteWhite",
+"satbflyBlack", "satbflyBlue", "satbflyCyan", "satbflyGold", "satbflyGreen", "satbflyLime", "satbflyMagenta", "satbflyOrange", "satbflyPurple", "satbflyRed", "satbflyTeal", "satbflyWhite",
+"satbranchBlack", "satbranchBlue", "satbranchCyan", "satbranchGold", "satbranchGreen", "satbranchLime", "satbranchMagenta", "satbranchOrange", "satbranchPurple", "satbranchRed", "satbranchTeal", "satbranchWhite",
+"satdamagedBlack", "satdamagedBlue", "satdamagedCyan", "satdamagedGold", "satdamagedGreen", "satdamagedLime", "satdamagedMagenta", "satdamagedOrange", "satdamagedPurple", "satdamagedRed", "satdamagedTeal", "satdamagedWhite",
+"satearBlack", "satearBlue", "satearCyan", "satearGold", "satearGreen", "satearLime", "satearMagenta", "satearOrange", "satearPurple", "satearRed", "satearTeal", "satearWhite",
+"sateternalBlack", "sateternalBlue", "sateternalCyan", "sateternalGold", "sateternalGreen", "sateternalLime", "sateternalMagenta", "sateternalOrange", "sateternalPurple", "sateternalRed", "sateternalTeal", "sateternalWhite",
+"satfluffBlack", "satfluffBlue", "satfluffCyan", "satfluffGold", "satfluffGreen", "satfluffLime", "satfluffMagenta", "satfluffOrange", "satfluffPurple", "satfluffRed", "satfluffTeal", "satfluffWhite",
+"sathoodBlack", "sathoodBlue", "sathoodCyan", "sathoodGold", "sathoodGreen", "sathoodLime", "sathoodMagenta", "sathoodOrange", "sathoodPurple", "sathoodRed", "sathoodTeal", "sathoodWhite",
+"sathornBlack", "sathornBlue", "sathornCyan", "sathornGold", "sathornGreen", "sathornLime", "sathornMagenta", "sathornOrange", "sathornPurple", "sathornRed", "sathornTeal", "sathornWhite",
+"sathornBBlack", "sathornBBlue", "sathornBCyan", "sathornBGold", "sathornBGreen", "sathornBLime", "sathornBMagenta", "sathornBOrange", "sathornBPurple", "sathornBRed", "sathornBTeal", "sathornBWhite",
+"sathornGBlack", "sathornGBlue", "sathornGCyan", "sathornGGold", "sathornGGreen", "sathornGLime", "sathornGMagenta", "sathornGOrange", "sathornGPurple", "sathornGRed", "sathornGTeal", "sathornGWhite",
+"sathornSBlack", "sathornSBlue", "sathornSCyan", "sathornSGold", "sathornSGreen", "sathornSLime", "sathornSMagenta", "sathornSOrange", "sathornSPurple", "sathornSRed", "sathornSTeal", "sathornSWhite",
+"satleafBlack", "satleafBlue", "satleafCyan", "satleafGold", "satleafGreen", "satleafLime", "satleafMagenta", "satleafOrange", "satleafPurple", "satleafRed", "satleafTeal", "satleafWhite",
+"satsoftBlack", "satsoftBlue", "satsoftCyan", "satsoftGold", "satsoftGreen", "satsoftLime", "satsoftMagenta", "satsoftOrange", "satsoftPurple", "satsoftRed", "satsoftTeal", "satsoftWhite",
+"satsoftGBlack", "satsoftGBlue", "satsoftGCyan", "satsoftGGold", "satsoftGGreen", "satsoftGLime", "satsoftGMagenta", "satsoftGOrange", "satsoftGPurple", "satsoftGRed", "satsoftGTeal", "satsoftGWhite",
+"satsoftSBlack", "satsoftSBlue", "satsoftSCyan", "satsoftSGold", "satsoftSGreen", "satsoftSLime", "satsoftSMagenta", "satsoftSOrange", "satsoftSPurple", "satsoftSRed", "satsoftSTeal", "satsoftSWhite",
+"satthickBlack", "satthickBlue", "satthickCyan", "satthickGold", "satthickGreen", "satthickLime", "satthickMagenta", "satthickOrange", "satthickPurple", "satthickRed", "satthickTeal", "satthickWhite"
+]
+},
+
+{
+    "op": "add",
+    "path": "/genders/1/facialMask",
+    "value": [
+"satbcuteBlack", "satbcuteBlue", "satbcuteCyan", "satbcuteGold", "satbcuteGreen", "satbcuteLime", "satbcuteMagenta", "satbcuteOrange", "satbcutePurple", "satbcuteRed", "satbcuteTeal", "satbcuteWhite",
+"satbflyBlack", "satbflyBlue", "satbflyCyan", "satbflyGold", "satbflyGreen", "satbflyLime", "satbflyMagenta", "satbflyOrange", "satbflyPurple", "satbflyRed", "satbflyTeal", "satbflyWhite",
+"satbranchBlack", "satbranchBlue", "satbranchCyan", "satbranchGold", "satbranchGreen", "satbranchLime", "satbranchMagenta", "satbranchOrange", "satbranchPurple", "satbranchRed", "satbranchTeal", "satbranchWhite",
+"satdamagedBlack", "satdamagedBlue", "satdamagedCyan", "satdamagedGold", "satdamagedGreen", "satdamagedLime", "satdamagedMagenta", "satdamagedOrange", "satdamagedPurple", "satdamagedRed", "satdamagedTeal", "satdamagedWhite",
+"satearBlack", "satearBlue", "satearCyan", "satearGold", "satearGreen", "satearLime", "satearMagenta", "satearOrange", "satearPurple", "satearRed", "satearTeal", "satearWhite",
+"sateternalBlack", "sateternalBlue", "sateternalCyan", "sateternalGold", "sateternalGreen", "sateternalLime", "sateternalMagenta", "sateternalOrange", "sateternalPurple", "sateternalRed", "sateternalTeal", "sateternalWhite",
+"satfluffBlack", "satfluffBlue", "satfluffCyan", "satfluffGold", "satfluffGreen", "satfluffLime", "satfluffMagenta", "satfluffOrange", "satfluffPurple", "satfluffRed", "satfluffTeal", "satfluffWhite",
+"sathoodBlack", "sathoodBlue", "sathoodCyan", "sathoodGold", "sathoodGreen", "sathoodLime", "sathoodMagenta", "sathoodOrange", "sathoodPurple", "sathoodRed", "sathoodTeal", "sathoodWhite",
+"sathornBlack", "sathornBlue", "sathornCyan", "sathornGold", "sathornGreen", "sathornLime", "sathornMagenta", "sathornOrange", "sathornPurple", "sathornRed", "sathornTeal", "sathornWhite",
+"sathornBBlack", "sathornBBlue", "sathornBCyan", "sathornBGold", "sathornBGreen", "sathornBLime", "sathornBMagenta", "sathornBOrange", "sathornBPurple", "sathornBRed", "sathornBTeal", "sathornBWhite",
+"sathornGBlack", "sathornGBlue", "sathornGCyan", "sathornGGold", "sathornGGreen", "sathornGLime", "sathornGMagenta", "sathornGOrange", "sathornGPurple", "sathornGRed", "sathornGTeal", "sathornGWhite",
+"sathornSBlack", "sathornSBlue", "sathornSCyan", "sathornSGold", "sathornSGreen", "sathornSLime", "sathornSMagenta", "sathornSOrange", "sathornSPurple", "sathornSRed", "sathornSTeal", "sathornSWhite",
+"satleafBlack", "satleafBlue", "satleafCyan", "satleafGold", "satleafGreen", "satleafLime", "satleafMagenta", "satleafOrange", "satleafPurple", "satleafRed", "satleafTeal", "satleafWhite",
+"satsoftBlack", "satsoftBlue", "satsoftCyan", "satsoftGold", "satsoftGreen", "satsoftLime", "satsoftMagenta", "satsoftOrange", "satsoftPurple", "satsoftRed", "satsoftTeal", "satsoftWhite",
+"satsoftGBlack", "satsoftGBlue", "satsoftGCyan", "satsoftGGold", "satsoftGGreen", "satsoftGLime", "satsoftGMagenta", "satsoftGOrange", "satsoftGPurple", "satsoftGRed", "satsoftGTeal", "satsoftGWhite",
+"satsoftSBlack", "satsoftSBlue", "satsoftSCyan", "satsoftSGold", "satsoftSGreen", "satsoftSLime", "satsoftSMagenta", "satsoftSOrange", "satsoftSPurple", "satsoftSRed", "satsoftSTeal", "satsoftSWhite",
+"satthickBlack", "satthickBlue", "satthickCyan", "satthickGold", "satthickGreen", "satthickLime", "satthickMagenta", "satthickOrange", "satthickPurple", "satthickRed", "satthickTeal", "satthickWhite"
+  ]
+  },
+
+//Removes all base colors
+  {
+    "op": "remove",
+    "path": "/bodyColor"
+  },
+  {
+    "op": "remove",
+    "path": "/undyColor"
+  },
+  {
+    "op": "remove",
+    "path": "/hairColor"
+  },
+
+
+
+//adds new Body Colors
+{
+    "op": "add",
+    "path": "/bodyColor",
+    "value": [
+    {
+      "ffe2c5": "FFFCE3",
+      "ffc181": "FFECC9",
+      "d39c6c": "FFD3B7",
+      "c7815b": "EDAE9A"
+    },
+    {
+      "ffe2c5": "FFF9E3",
+      "ffc181": "FFECC9",
+      "d39c6c": "FFD0A6",
+      "c7815b": "EDBA9A"
+    },
+    {
+      "ffe2c5": "FFFAEE",
+      "ffc181": "FFE1C5",
+      "d39c6c": "F5BBA3",
+      "c7815b": "E49D8E"
+    },
+    {
+      "ffe2c5": "FFEDE3",
+      "ffc181": "FFCBB7",
+      "d39c6c": "ED9A9C",
+      "c7815b": "DB8E9B"
+    },
+    {
+      "ffe2c5": "FFE4B2",
+      "ffc181": "FFBD80",
+      "d39c6c": "CC8E66",
+      "c7815b": "9A624D"
+    },
+    {
+      "ffe2c5": "FFD8B2",
+      "ffc181": "FFB68D",
+      "d39c6c": "DC826D",
+      "c7815b": "B6615A"
+    },
+    {
+      "ffe2c5": "F4E7C7",
+      "ffc181": "DBA06D",
+      "d39c6c": "A86749",
+      "c7815b": "76422F"
+    },
+    {
+      "ffe2c5": "E7BB9A",
+      "ffc181": "DB8C6D",
+      "d39c6c": "A85C4D",
+      "c7815b": "763F34"
+    },
+    {
+      "ffe2c5": "C2835A",
+      "ffc181": "A86749",
+      "d39c6c": "76422F",
+      "c7815b": "5B3122"
+    },
+    {
+      "ffe2c5": "C2735A",
+      "ffc181": "A85C4D",
+      "d39c6c": "763F34",
+      "c7815b": "5B2E22"
+    },
+    {
+      "ffe2c5": "90543B",
+      "ffc181": "774235",
+      "d39c6c": "562E27",
+      "c7815b": "47241E"
+    },
+    {
+      "ffe2c5": "E4C0A6",
+      "ffc181": "C29784",
+      "d39c6c": "AC5E54",
+      "c7815b": "8C4346"
+    }
+  ]
+},
+//Alt Colors
+{
+    "op": "add",
+    "path": "/undyColor",
+    "value": [
+    {
+      "951500": "111111",
+      "dc1f00": "8D8D8D",
+      "be1b00": "363636"
+    },
+    {
+      "951500": "150000",
+      "dc1f00": "880000",
+      "be1b00": "4A0202"
+    },
+    {
+      "951500": "150900",
+      "dc1f00": "884200",
+      "be1b00": "4A2302"
+    },
+    {
+      "951500": "151200",
+      "dc1f00": "887700",
+      "be1b00": "4A4002"
+    },
+    {
+      "951500": "0E1500",
+      "dc1f00": "608800",
+      "be1b00": "334A02"
+    },
+    {
+      "951500": "041500",
+      "dc1f00": "178800",
+      "be1b00": "0E4A02"
+    },
+    {
+      "951500": "001514",
+      "dc1f00": "008884",
+      "be1b00": "024A47"
+    },
+    {
+      "951500": "000C15",
+      "dc1f00": "005288",
+      "be1b00": "022D4A"
+    },
+    {
+      "951500": "030613",
+      "dc1f00": "12277A",
+      "be1b00": "0A1641"
+    },
+    {
+      "951500": "120015",
+      "dc1f00": "7C0088",
+      "be1b00": "43024A"
+    },
+    {
+      "951500": "260527",
+      "dc1f00": "D567D5",
+      "be1b00": "911085"
+    },
+    {
+      "951500": "082A30",
+      "dc1f00": "4ED2AA",
+      "be1b00": "2F938D"
+    },
+    {
+      "951500": "080B3D",
+      "dc1f00": "44ADB9",
+      "be1b00": "1A497B"
+    },
+    {
+      "951500": "330805",
+      "dc1f00": "DB9F44",
+      "be1b00": "863617"
+    },
+    {
+      "951500": "301603",
+      "dc1f00": "DBC544",
+      "be1b00": "866217"
+    },
+    {
+      "951500": "133305",
+      "dc1f00": "B2DB44",
+      "be1b00": "498617"
+    },
+    {
+      "951500": "170533",
+      "dc1f00": "9844DB",
+      "be1b00": "511786"
+    }
+  ]
+},
+//Hair Colors
+{
+    "op": "add",
+    "path": "/hairColor",
+    "value": [
+    {
+      "f7e7b2": "737D8A",
+      "d9c189": "616A77",
+      "a38d59": "414651",
+      "735e3a": "292D36"
+    },
+    {
+      "f7e7b2": "5C6771",
+      "d9c189": "4A5563",
+      "a38d59": "333948",
+      "735e3a": "232736"
+    },
+    {
+      "f7e7b2": "505076",
+      "d9c189": "403F66",
+      "a38d59": "292C48",
+      "735e3a": "1B1F34"
+    },
+    {
+      "f7e7b2": "D2C2BD",
+      "d9c189": "BAA9A6",
+      "a38d59": "93858E",
+      "735e3a": "5E5360"
+    },
+    {
+      "f7e7b2": "877767",
+      "d9c189": "726256",
+      "a38d59": "51423D",
+      "735e3a": "3C3230"
+    },
+    {
+      "f7e7b2": "824A21",
+      "d9c189": "74391C",
+      "a38d59": "62270C",
+      "735e3a": "481407"
+    },
+    {
+      "f7e7b2": "B48D87",
+      "d9c189": "A27674",
+      "a38d59": "865454",
+      "735e3a": "60383E"
+    },
+    {
+      "f7e7b2": "B84A1D",
+      "d9c189": "9D240F",
+      "a38d59": "78291C",
+      "735e3a": "5A251C"
+    },
+    {
+      "f7e7b2": "FB9F27",
+      "d9c189": "F37C16",
+      "a38d59": "D2491D",
+      "735e3a": "B12F1E"
+    },
+    {
+      "f7e7b2": "FF917D",
+      "d9c189": "FF6E63",
+      "a38d59": "DE392C",
+      "735e3a": "C31D26"
+    },
+    {
+      "f7e7b2": "FFB378",
+      "d9c189": "FF9965",
+      "a38d59": "E87C45",
+      "735e3a": "CD6838"
+    },
+    {
+      "f7e7b2": "FBE9CA",
+      "d9c189": "F7DDB7",
+      "a38d59": "E4B47D",
+      "735e3a": "CF9366"
+    },
+    {
+      "f7e7b2": "FBEDC3",
+      "d9c189": "F7E3B3",
+      "a38d59": "D6AD62",
+      "735e3a": "C09546"
+    },
+    {
+      "f7e7b2": "FFFCE8",
+      "d9c189": "FFF8D8",
+      "a38d59": "F6DEA5",
+      "735e3a": "F0C5A1"
+    },
+    {
+      "f7e7b2": "FFE3EF",
+      "d9c189": "FACEE4",
+      "a38d59": "F19FC2",
+      "735e3a": "EA68A2"
+    },
+    {
+      "f7e7b2": "D55A82",
+      "d9c189": "C24A74",
+      "a38d59": "B12848",
+      "735e3a": "901B31"
+    },
+    {
+      "f7e7b2": "EF8B98",
+      "d9c189": "E6798E",
+      "a38d59": "C56376",
+      "735e3a": "B15165"
+    },
+    {
+      "f7e7b2": "D27DBC",
+      "d9c189": "C36AAC",
+      "a38d59": "A23873",
+      "735e3a": "621F48"
+    },
+    {
+      "f7e7b2": "BE9CF8",
+      "d9c189": "AB7BF1",
+      "a38d59": "853BD3",
+      "735e3a": "580D71"
+    },
+    {
+      "f7e7b2": "7B43CB",
+      "d9c189": "6A36B6",
+      "a38d59": "472082",
+      "735e3a": "301061"
+    },
+    {
+      "f7e7b2": "899BFF",
+      "d9c189": "6F6FFF",
+      "a38d59": "603AEC",
+      "735e3a": "4509A6"
+    },
+    {
+      "f7e7b2": "E1D0D9",
+      "d9c189": "D0BEC9",
+      "a38d59": "B799BD",
+      "735e3a": "825B9A"
+    },
+    {
+      "f7e7b2": "B5A0C4",
+      "d9c189": "9E8BB4",
+      "a38d59": "715897",
+      "735e3a": "524384"
+    },
+    {
+      "f7e7b2": "D9CCED",
+      "d9c189": "C3B8E1",
+      "a38d59": "8D97CB",
+      "735e3a": "556FB5"
+    },
+    {
+      "f7e7b2": "F1EFF8",
+      "d9c189": "DEDAEB",
+      "a38d59": "C3B7E4",
+      "735e3a": "968FDC"
+    },
+    {
+      "f7e7b2": "EBEFF6",
+      "d9c189": "D6DAEA",
+      "a38d59": "ACB0E2",
+      "735e3a": "7A7ACF"
+    },
+    {
+      "f7e7b2": "A2A4E3",
+      "d9c189": "8B8AD6",
+      "a38d59": "6262C1",
+      "735e3a": "4F48B4"
+    },
+    {
+      "f7e7b2": "E4F6F8",
+      "d9c189": "D8EDF6",
+      "a38d59": "B4DBED",
+      "735e3a": "9DC0DF"
+    },
+    {
+      "f7e7b2": "F4F6F4",
+      "d9c189": "E8EEEC",
+      "a38d59": "C9DAE9",
+      "735e3a": "87ABE5"
+    },
+    {
+      "f7e7b2": "EBF3E8",
+      "d9c189": "DFF1E5",
+      "a38d59": "B0D8C7",
+      "735e3a": "83B4AD"
+    },
+    {
+      "f7e7b2": "71A6B1",
+      "d9c189": "5C8C9C",
+      "a38d59": "3F6B7A",
+      "735e3a": "384E60"
+    },
+    {
+      "f7e7b2": "43A19C",
+      "d9c189": "327F7B",
+      "a38d59": "255D5A",
+      "735e3a": "1C4744"
+    },
+    {
+      "f7e7b2": "9FF8D9",
+      "d9c189": "77F0DF",
+      "a38d59": "46BACF",
+      "735e3a": "3984C3"
+    },
+    {
+      "f7e7b2": "7BFFC3",
+      "d9c189": "55F0CC",
+      "a38d59": "39D2D5",
+      "735e3a": "2EA3BD"
+    },
+    {
+      "f7e7b2": "00D067",
+      "d9c189": "00AB6A",
+      "a38d59": "007130",
+      "735e3a": "004528"
+    },
+    {
+      "f7e7b2": "7FDC18",
+      "d9c189": "30C80F",
+      "a38d59": "009D04",
+      "735e3a": "00685E"
+    },
+    {
+      "f7e7b2": "F5F6E1",
+      "d9c189": "EAF3CA",
+      "a38d59": "CCE199",
+      "735e3a": "B3D465"
+    },
+    {
+      "f7e7b2": "AFDE29",
+      "d9c189": "8FC41F",
+      "a38d59": "648C0D",
+      "735e3a": "496A00"
+    },
+    {
+      "f7e7b2": "577859",
+      "d9c189": "426044",
+      "a38d59": "28432B",
+      "735e3a": "0F2015"
+    },
+    {
+      "f7e7b2": "FFFBF4",
+      "d9c189": "F3F0E6",
+      "a38d59": "D6DBD4",
+      "735e3a": "B9C1C7"
+    }
+    ]
+   }
+
+]
