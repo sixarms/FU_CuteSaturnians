@@ -1,0 +1,39 @@
+{
+  "objectName" : "flagsaturn",
+  "colonyTags" : ["saturn"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  "description" : "A blue silk flag printed with the Saturnian royal family crest. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Saturnian Flag",
+  "saturndescription" : "A blue silk flag printed with the Saturnian royal family crest.",
+  "race" : "saturn",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagsaturnicon.png",
+  "orientations" : [
+    {
+      "image" : "flagsaturn.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagsaturn.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

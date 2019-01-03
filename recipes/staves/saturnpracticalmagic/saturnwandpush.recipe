@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 1},
+    { "item" : "durasteelbar", "count" : 4 }
+  ],
+  "output" : { "item" : "saturnwandpush", "count" : 1 },
+  "groups" : [ "saturnpracticalmagic", "all" ]
+}

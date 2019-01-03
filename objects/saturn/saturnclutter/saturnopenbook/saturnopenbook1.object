@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnopenbook1",
+  "colonyTags" : ["saturn", "satBooks" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book about staff crafting.",
+  "shortdescription" : "Book of Magic",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "This book details how to build a staff.",
+  "inventoryIcon" : "saturnopenbookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+[
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/offer/saturn",
+"value":  {
+
+
+"default" : [
+
+
+	"I've been stuck in this spot for almost a year. Can I travel with you?",
+	"I'm just an apprentice, but I am eager to learn about what lies among the stars. Can I travel with you?",
+	"Staying on this world can only get me so far. Can I explore with you?"
+	],
+	
+"novakid" : [
+
+
+	"I've been stuck in this spot for almost a year. Can I travel with you?",
+	"I'm just an apprentice, but I am eager to learn about what lies among the stars. Can I travel with you?",
+	"Staying on this world can only get me so far. Can I explore with you?",
+	"Could I travel with you across the stars? I swear this has nothing to do with the way you are glowing!"
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/respawned/saturn",
+"value":  {
+
+
+"default" : [
+
+
+	"I... am... REBORN!",
+	"Does this count as necromancy?",
+	"As long as my soul is left intact, I should be fine.",
+	"Ow!",
+	"I don't want to do that again...",
+	"Huh? Did your ship save me, <entityname>?"
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/unfollow/saturn",
+"value":  {
+"default" : [
+      "I'll just wait here.",
+      "I'll stay here. Come back when you need me, <entityname>!",
+      "I'll stay here for now, <entityname>.",
+      "Do you need me to stay here?",
+      "I'll stay here for now, then.",
+      "I'll stay here and observe my surroundings."
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/follow/saturn",
+"value":  {
+
+
+"default" : [
+	 "Are you ready to go?",
+     "Let's get going!",
+     "Let's go!",
+     "Are we going somewhere?"
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/cantreach/saturn",
+"value":  {
+"default" : [
+	 "I'm falling behind!",
+     "I can't reach you!",
+     "You're too far!",
+     "Hey, wait up!",
+     "Don't go too far!",
+     "Let me catch up!"
+	]
+}},
+
+
+
+
+
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+			"back" : [
+			{ "name" : "saturnWingSpearsmoth" }
+			],
+			
+			"chest" : [
+			{ "name" : "saturnobsidianarmorchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnobsidianarmorpants"}
+			],
+			
+			"primary" : [
+			"SaturnRapier3",
+			"npcshortsword",
+			"npcaxe"
+			],
+			"alt" : [
+            { "name" : "satringshieldleveled" },
+            { "name" : "satshieldregal" }
+            ],
+			"sheathedprimary" : [
+			{ "name" : "SaturnBowT3"}
+			]
+			
+		}
+	]]]}
+]

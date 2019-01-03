@@ -1,0 +1,11 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/saturn",
+		"value": {
+			"default": [
+				"Everything is going well today"
+			]
+		}
+	}
+]

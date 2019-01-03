@@ -1,0 +1,13 @@
+{
+  "itemName" : "sathomewalls1",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "sathomewalls1.png",
+  "description" : "Apparently, some Saturnians paint walls darker to make it look like there's more space.",
+  "shortdescription" : "Dark Painted Brick",
+
+
+  "materialId" : 54701,
+  "learnBlueprintsOnPickup" : [ "sathomewalls1" ]
+}

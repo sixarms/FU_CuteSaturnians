@@ -1,0 +1,93 @@
+{
+  "itemName" : "saturntomeT1",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This wand fires like a gun. It shoots a burst of soul energy.",
+  "shortdescription" : "Soul Burst Spell",
+  "tooltipKind" : "saturngun",
+  "category" : "wand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged", "wand", "upgradeableWeapon"],
+  "level" : 1,
+
+  "inventoryIcon" : "saturntomeT1.png",
+
+  "animation" : "/items/active/weapons/Saturn Spell Tomes/saturnspelltome.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "saturntomeT1.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/saturnmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "ghostsparkle", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/gun/SaturnWandshot.ogg", "/sfx/gun/SaturnWandshot2.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.1, 0.3],
+  "muzzleOffset" : [0.4, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.4,
+    "baseDps" : 10.5,
+    "energyUsage" : 18.75,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.015,
+
+    "burstCount" : 3,
+    "burstTime" : 0.1,
+    "fireType" : "burst",
+
+    "projectileType" : "saturnspinningplasmabullet",
+    "projectileParameters" : {
+      "knockback" : 3,
+	  "speed" : 45
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

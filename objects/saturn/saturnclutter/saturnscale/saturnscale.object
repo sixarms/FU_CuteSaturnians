@@ -1,0 +1,24 @@
+{
+  "objectName" : "saturnscale",
+  "colonyTags" : ["saturn", "satAlchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "An obsidian scale.",
+  "shortdescription" : "Obsidian Scale",
+  "category" : "decorative",
+  "race" : "saturn",
+  "glitchDescription" : "Observation. An obsidian scale.",
+  "novakidDescription" : "Some kinda scale.",
+  "saturnDescription" : "This scale is useful for measuring ingredients for potions.",
+  "inventoryIcon" : "saturnscaleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnscale.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

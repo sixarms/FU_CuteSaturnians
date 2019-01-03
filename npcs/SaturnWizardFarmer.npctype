@@ -1,0 +1,103 @@
+{
+  "type": "SaturnWizardFarmer",
+  "baseType": "merchant",
+  "identity": {
+
+    "bodyDirectives": "?replace=EFF4F4FF=FFECBDFF?replace=D5E1E2FF=F2D3A1FF?replace=A2AEB2FF=DBB68CFF?replace=7E8899FF=BA987CFF",
+    "hairDirectives": "?replace=E5DB72FF=EFEFEFFF?replace=DBC762FF=CBD1EDFF?replace=CCB551FF=B2C6EBFF?replace=B2933EFF=9EBFE7FF"
+  },
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [
+        "common"
+      ]
+    },
+    "merchant": {
+      "categories": {
+        "override": [
+          "Saturnfarmer"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 30,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "Wizard Farmer",
+          "subtitle": "Sells produce and seeds"
+        }
+      }
+    },
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?",
+              "I'm from a place called Actias. Most Actians would rather be channeling soul magic than growing plants."
+            ]
+          }
+        }
+      },
+      "end": {
+        "default": {
+          "default": [
+            "Farewell, traveler.",
+            "Have you heard about those spirits showing up on the moons? Crazy huh?",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ]
+        },
+        "glitch": {
+          "default": [
+            "Cordial. Farewell, traveler.",
+            "Convivial. I hope to see you more in future.",
+            "Kindly. Courage to you!"
+          ]
+        }
+      }
+    }
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturntier4chestnotevil"
+            ],
+            "legs": [
+              "saturnmerchantlegs"
+            ],
+            "head": [
+			{ "name" : "SunHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnWideHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnBuckledHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } }
+            ],
+            "back": [
+			{ "name" : "saturnWingLuna2"},
+			{ "name" : "saturnWingLunaB2"},
+			{ "name" : "saturnWingLunaB2"}
+            ],
+            "primary": [
+              "satstaffrain"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

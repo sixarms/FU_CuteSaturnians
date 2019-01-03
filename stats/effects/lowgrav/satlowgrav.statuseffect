@@ -1,0 +1,13 @@
+{
+  "name" : "satlowgrav",
+  "effectConfig" : {
+    "gravityModifier" : 0.7
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "satlowgrav.lua"
+  ],
+
+  "animationConfig" : "satlowgrav.animation"
+}

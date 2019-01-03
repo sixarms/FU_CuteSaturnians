@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : { "item" : "saturngunwandT1", "count" : 1 },
+  "groups" : [ "saturnstagewand", "all" ]
+}

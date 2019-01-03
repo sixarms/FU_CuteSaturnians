@@ -1,0 +1,36 @@
+{
+  "objectName" : "saturnBuilderThing",
+  "colonyTags" : ["crafting","electronic", "saturn"],
+  "rarity" : "Legendary",
+  "price" : 1250,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturnBuilderThing.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Armor Transmogrification Table",
+        "subtitle" : "Transforms armor appearances. One way only ",
+        "icon" : {
+          "file" : "/interface/crafting/wiringstation.png"
+        }
+      }
+    },
+     "filter" : [ "saturntransmogColors", "saturntransmogcAltHelms", "craftingfurnace3" ]
+  },
+  "printable" : false,
+  "description" : "Transforms armor appearances. One way only",
+  "shortdescription" : "^orange;Transmutation Table^white;",
+  "race" : "saturn",
+  "category" : "crafting",
+  "inventoryIcon" : "saturnBuilderThingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnBuilderThing.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

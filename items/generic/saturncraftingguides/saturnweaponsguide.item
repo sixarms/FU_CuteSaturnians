@@ -1,0 +1,41 @@
+{
+  "itemName" : "saturnweaponsguide",
+  "price" : 1000,
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "saturnbook.png",
+  "description" : "This book details how to craft Saturnian weapons.",
+  "shortdescription" : "Saturnian Weapons Guide",
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"SaturnRapier",
+	"SaturnRapier2",
+	"SaturnRapier3",
+	"SaturnRapier4",
+	"SaturnRapier5",
+	"SaturnRapier6",
+	
+	"saturnMaceT1",
+	"saturnMaceT2",
+	"saturnMaceT3",
+	"saturnMaceT4",
+	"saturnMaceT5",
+	"saturnMaceT6",
+	
+	"SaturnBowT1",
+	"SaturnBowT2",
+	"SaturnBowT3",
+	"SaturnBowT4",
+	"SaturnBowT5",
+	"SaturnBowT6",
+	
+	"satstaffT1",
+	"satstaffT2",
+	"satstaffT3",
+	"satstaffT4",
+	"satstaffT5",
+	"satstaffstar1",
+	"satstaffstar2"
+	
+	]
+}

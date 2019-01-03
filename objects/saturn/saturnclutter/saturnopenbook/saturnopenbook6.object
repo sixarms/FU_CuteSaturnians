@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnopenbook6",
+  "colonyTags" : ["saturn", "satBooks" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book held up by a stand.",
+  "shortdescription" : "Mushroom Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "Certain mushrooms are said to be great for alchemy, but I have not seen any around here.",
+  "inventoryIcon" : "saturnopenbookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook6.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

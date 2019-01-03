@@ -1,0 +1,50 @@
+{
+  "objectName" : "saturncrystallamp",
+  "colonyTags" : ["light", "saturn"],
+  "rarity" : "Common",
+  "description" : "A glowing crystal taken from the Saturnian homeworld.",
+  "shortdescription" : "Saturnian Moon Crystal",
+  "race" : "saturn",
+  "category" : "light",
+  "price" : 30,
+  "lightColor" : [120, 170, 200],
+  
+  "flickerPeriod" : 0.9,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  "inventoryIcon" : "saturncrystallampicon.png",
+  "orientations" : [
+    {
+      "image" : "saturncrystallamp.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [ [0, 0], [0, -1], [-1, -2], [0, -2], [1, -2], [0, -3] ],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    },
+    {
+      "image" : "saturncrystallamp.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "direction" : "right",
+      "spaces" : [ [0, 0], [0, -1], [-1, -2], [0, -2], [1, -2], [0, -3] ],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    }
+  ],
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "saturncrystallamp.png",
+    "fg" : "saturncrystallamplit.png"
+  },
+  "animationPosition" : [-4, -24],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+  "inputNodes" : [ [0, -2] ]
+}

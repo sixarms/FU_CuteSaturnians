@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+	{ "item" : "canvas", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "saturncanvas",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

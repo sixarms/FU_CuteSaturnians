@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnalembic",
+  "colonyTags" : ["saturn", "satAlchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "Alchemical device for distilling liquids.",
+  "shortdescription" : "Alembic",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "A crystal heats this up to distill a liquid.",
+  "inventoryIcon" : "saturnalembicicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnalembic.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

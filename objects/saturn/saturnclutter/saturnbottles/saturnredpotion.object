@@ -1,0 +1,29 @@
+{
+  "objectName" : "saturnredpotion",
+  "colonyTags" : ["saturn", "satAlchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A bottle full of red liquid.",
+  "shortdescription" : "Red Potion",
+  "category" : "decorative",
+  "race" : "generic",
+  "apexDescription" : "This concoction smells sweet.",
+  "avianDescription" : "This mixture smells delightful, but smell alone won't tempt me.",
+  "floranDescription" : "Sssweet smelling liquid. Floran prefers sssavoury sustenance.",
+  "glitchDescription" : "Sceptical. I can detect no active ingredients. Perhaps this is a placebo.",
+  "humanDescription" : "This smells like orange cola.",
+  "hylotlDescription" : "Such a sweet odour, it's intoxicating.",
+  "novakidDescription" : "Red flavour.",
+  "saturnDescription" : "This potion causes wounds to quickly heal.",
+  "inventoryIcon" : "saturnredpotionicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnredpotion.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
